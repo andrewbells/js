@@ -1,0 +1,101 @@
+html {
+                                        margin: 0;
+                                        padding: 0;
+                                        background-color: #777;
+                                }
+                                body {
+                                        width: 80%;
+                                        margin: 0 auto;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                        padding: 1em 50px;
+                                        background-color: white;
+                                        border-bottom: 10px solid gold;
+                                }
+                                h1 {
+                                        font-family: Georgia, "Times New Roman", Times, serif;
+                                        font-style: italic;
+                                        font-weight: bold;
+                                        font-size: 2em;
+                                        margin: 2em 0 .4em;
+                                        padding: 5px 10px;
+                                        background: rgb(44,45,140);
+                                        color: #ddd;
+                                }
+                                h2 {
+                                        color: red;
+                                        font-weight: bold;
+                                }
+                                h2.style {
+                                        color: green;
+                                        font-weight: bold;
+                                }
+                                p {
+                                        font-size: 1em;
+                                        text-align: justify;
+                                        line-height: 1.4;
+                                        width: 60%;
+                                        margin: 0;
+                                        margin-bottom: 1em;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: red;
+                                }
+                                a:hover {
+                                    color: black;
+                                }
+                                .flowRight {
+                                    float: right;
+                                    clear: right;
+                                    margin-right: 10px;
+                                    margin-left: 10px;
+                                    margin_bottom: 1px;
+                                    padding: 10px;
+                                }
+                                .flowLeft {
+                                    float: left;
+                                    clear: left;
+                                    margin-left: 10px;
+                                }
+                                td, th {
+                                    padding: 10px;
+                                        }
+                                .center {
+                                    text-align: center;
+                                }
+                                #header {
+                                    border-bottom: 1px solid gray;
+                                }
+                                #footer {
+                                    border-top: 10px solid gray;
+                                    text-align: center;
+                                    font-size: .8em;
+                                    line-height: 4em;
+                                    margin-top: 1em;
+                                }
+                                table {
+                                        margin-top: 1em;
+                                        text-align: center;
+                                }
+                                pre.correct {
+                                        border-left-color: green;
+                                }
+                                pre {
+                                        border-left: 1em solid yellow;
+                                        width: 80%;
+                                        background: #666;
+                                        font-size: 1.4em;
+                                        color: white;
+                                        padding: .5em 1em;
+                                        white-space: pre-wrap;
+                                        white-space: -moz-pre-wrap;
+                                        white-space: -pre-wrap;
+                                        white-space: -o-pre-wrap;
+                                        word-wrap: break-word;
+                                        }
+                                        caption {
+                                                             margin: 0;
+                                                             padding: 0;
+                                                             margin-bottom: .1em;
+                                                             text-align: right;
+                                                             }
