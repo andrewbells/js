@@ -2,7 +2,7 @@
 function newGame() {
 	pressedDisarm = false;
 	pressedConfirm = false;
-	i = Math.floor((Math.random()*70)+30); 
+	i = Math.floor((Math.random()*30)+30); 
 	fire = [true, true, true];
 	fire[Math.floor(Math.random()*3)] = false;
 	
@@ -54,7 +54,7 @@ var message = document.getElementById("Message");
 
 setInterval(timer, 1000);
 var screen = document.getElementById("timer");
-var i = Math.floor((Math.random()*70)+30); 
+var i = Math.floor((Math.random()*30)+30); 
 
 function timer () {
 	if (i>=0) {
