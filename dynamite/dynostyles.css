@@ -74,14 +74,18 @@ html {
                                     line-height: 4em;
                                     margin-top: 1em;
                                 }
-								#disarm {
+								#confirm {
 									background-color: #941;
 									width: 10%;
 									color: white;
-									margin-left: 150px;
+									margin-left: 0px;
 									
 								}
-								#disarm:hover{
+								#confirm:hover{
 									color: pink;
+								}
+								#newgame {
+									margin-left: 200px;
+									background-color: #595;
 								}
                                
