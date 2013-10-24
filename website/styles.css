@@ -104,6 +104,11 @@ html {
                                                              }
 															 
 								form {
-									background-color: #943;
-									width: 60%;
+									background-color: #198732;
+									width: 30%;
+								}
+								.example {
+									color: #fff;
+									font-size: 1em;
+									text-align: right;
 								}

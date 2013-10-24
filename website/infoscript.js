@@ -11,6 +11,17 @@ function prepareEventHandlers(){
 	};
 }	
 
+function preparePage() {
+	document.getElementById("spam").onclick = function() {
+		if (document.getElementById("spam").checked) {
+			document.getElementById("tourSelection").style.display = "block";
+		} else {
+			document.getElementById("tourSelection").style.display = "none";
+		}
+	};
+	document.getElementById("tourSelection").style.display = "none";
+}
+
 function makeSureEmail(){
 	var emailField = document.getElementById("email");
 
@@ -41,4 +52,11 @@ function makeSureEmail(){
 window.onload = function() {
 	prepareEventHandlers();
 	makeSureEmail();
+	preparePage();
 };
+
+/*http://closure-compiler.appspot.com/home
+function prepareEventHandlers(){document.getElementById("frmInfo").onsubmit=function(){if(""==document.getElementById("email").value||"your email"==document.getElementById("email").value)return document.getElementById("errorMessage").innerHTML="Provide at least an email address",!1;document.getElementById("errorMessage").innerHTML="";return!0}}
+function preparePage(){document.getElementById("spam").onclick=function(){document.getElementById("spam").checked?document.getElementById("tourSelection").style.display="block":document.getElementById("tourSelection").style.display="none"};document.getElementById("tourSelection").style.display="none"}function makeSureEmail(){var a=document.getElementById("email");a.onfocus=function(){"your email"==a.value&&(a.value="")};a.onblur=function(){""==a.value&&(a.value="your email")}}
+window.onload=function(){prepareEventHandlers();makeSureEmail();preparePage()};
+*/
