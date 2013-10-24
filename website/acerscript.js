@@ -65,6 +65,6 @@ function changeMessage() {
 //window contains document
 window.onload = function() {
 	prepareEventHandlers();
-	setInterval(changeMessage, 4000);
+	setInterval(changeMessage, 5000);
 };
 
