@@ -1,3 +1,5 @@
+// moved to acerscript
+
 /*
 function simpleMessage() {
 	alert("this is an alert box set up by a timer")
@@ -67,5 +69,5 @@ function animateForm() {
 
 window.onload = function() {
 	prepareFrontPage();
-	setTimeout(beginAnimate,5000);
+	setTimeout(beginAnimate,2000);
 }

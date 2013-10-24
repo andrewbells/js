@@ -112,3 +112,7 @@ html {
 									font-size: 1em;
 									text-align: right;
 								}
+								.highlight {
+									background-color: #127788;
+									width: 30%;
+								}
