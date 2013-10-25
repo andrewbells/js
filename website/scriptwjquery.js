@@ -161,3 +161,29 @@ var myRE_7 = /hel?o/; // * appears zero or one --> heo, "helo"
 
 // RE for email address (imperfect):
 // /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+
+// AJAX
+
+var myRequest;
+
+if (window.XMLHttpRequest) {
+    myRequest = new XMLHttpRequest();
+} else if (window.ActiveXObejct) {
+    myRequest = new ActiveXObject("Microsoft.XMLHTTP");
+}
+
+myRequest.onreadystatechange = function() {
+    console.log("we were called");
+	console.log(myRequest.readyState);
+	if (myRequest.readyState === 4) {
+	    var p = document.createElement("p");
+		var t = document.createTextNode(myRequest.responseText);
+		p.appendChild(t);
+		document.getElementById("three").appendChild(p);
+	}
+};
+
+myRequest.open("GET", "simple.txt", true);
+myRequest.send(null);
+
