@@ -4,6 +4,10 @@ document.onclick = function() {
 };
 */
 
+function testClick() {
+    document.getElementById('one').innerHTML = "You clicked me!";
+};
+
 function prepareEventHandlers(){
 	var myImage = document.getElementById('reportImage');
 
@@ -139,4 +143,13 @@ function animateForm() {
 	}
 }
 
+/*
+// html 5
+var a = document.getElementById("mainTitle");
+var b = document.getElementsByTagName("li");
 
+var c = document.getElementsByClassName("myclass");
+var d = document.getElementByClassName("first second");
+
+
+*/

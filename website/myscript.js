@@ -1,4 +1,5 @@
-console.log("This is js in separate file, ok?");
+
+// console.log("This is js in separate file, ok?");
 // this is also comment
 /*
 console.log
@@ -246,4 +247,5 @@ player1.logDetails();
 player2.logDetails();
 
 // Document Object Model --> see myjavascript2.js
+
 
