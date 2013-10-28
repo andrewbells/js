@@ -1,7 +1,7 @@
 html {
                                         margin: 0;
                                         padding: 0;
-                                        background-color: #129;
+                                       background-color: #129;
                                 }
                                 body {
                                         width: 90%;
@@ -10,6 +10,7 @@ html {
                                         padding: 1em 50px;
                                         background-color: white;
                                         border-bottom: 10px solid gold;
+										/* background-image: url("_img/sorry_mario.jpg") } */
                                 }
                                 h1 {
                                         font-family: Georgia, "Comic Sans", Times, serif;
