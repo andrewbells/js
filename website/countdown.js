@@ -67,4 +67,6 @@ window.onload = function () {
 	// add to the DOM, to the div called "inputArea"
 	document.getElementById("inputArea").appendChild(inputMinutes);
 	document.getElementById("inputArea").appendChild(startButton);
+	
+	$("#accordion").accordion();
 };
