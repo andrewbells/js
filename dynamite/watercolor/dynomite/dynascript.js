@@ -30,7 +30,7 @@ function timer () {
         i--;
     } else if (i !== "Success!") {
         screen.innerHTML = "time is up"
-        dynomite.setAttribute("src", "_img/explosion.jpg");
+        dynomite.setAttribute("src", "_img/explosion.png");
     }
 }
 
@@ -116,14 +116,14 @@ confirm.onclick = function() {
 
 document.getElementById("disarm").onclick = function() {
     if (pressedDisarm == false && ((clicked_3 == true && fire_3 == true) || (clicked_2 == true && fire_2 == true) || (clicked_1 == true && fire_1 == true))) {
-        dynomite.setAttribute("src", "_img/explosion.jpg");
+        dynomite.setAttribute("src", "_img/explosion.png");
         i = "wrong switch!";
         lose++;
         document.getElementById("infofield_3").innerHTML = lose;
         message.innerHTML = "Not this time, dude, try once more...";
         pressedDisarm = true;
     } else if (pressedDisarm == false && ((clicked_3 == true && fire_3 == false) || (clicked_2 == true && fire_2 == false) || (clicked_1 == true && fire_1 == false))) {
-        dynomite.setAttribute("src", "_img/sorry_mario.jpg");
+        dynomite.setAttribute("src", "_img/sorry_mario.png");
         i = "Success!";
         win++;
         document.getElementById("infofield_2").innerHTML = win;
@@ -147,7 +147,7 @@ function newGame() {
     clicked_2 = false;
     clicked_3 = false;
     message.innerHTML = "One of the switches below can prevent an explosion, two others don't -- click one";
-    dynomite.setAttribute("src", "_img/dynamite_brown.jpg");
+    dynomite.setAttribute("src", "_img/dynamite_brown.png");
     switch_1.setAttribute("src", "_img/switch_on.jpg");
     switch_2.setAttribute("src", "_img/switch_on.jpg");
     switch_3.setAttribute("src", "_img/switch_on.jpg");
