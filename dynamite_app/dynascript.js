@@ -75,7 +75,7 @@ confirm.onclick = function() {
             clicked_2 = true;
             message.innerHTML = "Look, switch 2 is not the safe one - don't forget to switch it back, wanna change your choice? When you are done hit 'disarm'";
         } else if (fire_1 == true && clicked_2 == false) {
-            document.getElementById("switch_1").className = "switch_on";
+            document.getElementById("switch_1").className = "switch_off";
             clicked_1 = true;
             message.innerHTML = "Look, switch 1 is not the safe one - don't forget to switch it back, wanna change your choice? When you are done hit 'disarm'";
         }
