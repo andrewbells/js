@@ -1,0 +1,6 @@
+confirm();
+prompt();
+"string".length
+console.log("Hello");
+alert();
+"January".substring(0,3) --> "Jan"
