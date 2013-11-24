@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Super Mario!</title>
+    	<script type="text/javascript" src="../website/jquery-1.10.2.min.js"></script>
+        <style>
+			img {
+			    position: relative;
+			    left: 0;
+			    top: 0;
+			}
+        
+        </style>
+		<script>
+						$(document).ready(function() {
+			$(document).keydown(function(key) {
+			switch(parseInt(key.which,10)) {
+			case 65:
+			$('img').animate({left: "-=10px"}, 'fast');
+			break;
+			case 83:
+			$('img').animate({top: "+=10px"}, 'fast');
+			break;
+			case 87:
+			$('img').animate({top: "-=10px"}, 'fast');
+			break;
+			case 68:
+			$('img').animate({left: "+=10px"}, 'fast');
+			break;
+			default:
+			break;
+			}
+			});
+			});
+						
+		</script>
+	</head>
+	<body>
+        <img src="http://i1061.photobucket.com/albums/t480/ericqweinstein/mario.jpg"/>
+	</body>
+</html>
